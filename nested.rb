@@ -55,12 +55,8 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-		 programmer_hash,each do |k, v|
-			 if k = [:dennis_ritchie][:languages]
-				 "C"
-			 else
-		 end
-	 end
+		 programmer_hash,each {|k, v[:languages == "C"]
+			 
 end
 
 def adding_matz
