@@ -55,7 +55,12 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-		 programmer_hash[:dennis_ritchie][:languages]
+		 programmer_hash,each do |k, v|
+			 if k = [:dennis_ritchie][:languages]
+				 "C"
+			 else
+			 end
+		 end
 end
 
 def adding_matz
