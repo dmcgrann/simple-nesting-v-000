@@ -55,7 +55,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-		 programmer_hash.each {|k, v[:languages] == "C"}
+		 programmer_hash.each {|k, v| v[:languages] == "C"}
 
 end
 
