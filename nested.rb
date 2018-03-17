@@ -59,7 +59,6 @@ def dennis_ritchies_language
 			 if k = [:dennis_ritchie][:languages]
 				 "C"
 			 else
-			 end
 		 end
 	 end
 end
